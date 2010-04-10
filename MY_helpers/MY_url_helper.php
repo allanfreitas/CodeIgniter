@@ -20,7 +20,6 @@
  * @return  string
  */
 
-
 if(! function_exists('js_url')){
     function js_url(){
         $CI =& get_instance();
