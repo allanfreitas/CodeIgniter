@@ -3,12 +3,8 @@
 /**
  * LICENSE
  *
- * This source file is subject to the new BSD license that is bundled
- * with this package in the file LICENSE.txt.
- *
- * @category   CodeIgniter Package
- * @package    MY_url Helpers
- * @Version    1.01
+ * @category   CodeIgniter Extend Package
+ * @package    MY_url Helper
  * @author     Yuya Terajima <yterajima@e2esound.com>
  * @copyright  Copyright (c) 2010 Yuya Terajima <yterajima@e2esound.com>
  * @license    New BSD License
@@ -16,38 +12,40 @@
 
 
 /**
+ * Get JavaScript Files Directory:$config['base_url']/js
+ *
  * @access  public
  * @return  string
  */
-
 if(! function_exists('js_url')){
     function js_url(){
-        $CI =& get_instance();
-    	$CI->load->helper('url');
-    	return base_url().'js/';
+    	$CI =& get_instance();
+    	return $CI->config->item('base_url').'js/';
     }
 }
-/**
+
+/*
+ * Get CSS Files Directory:$config['base_url']/css/
+ *
  * @access  public
  * @return  string
  */
 if(! function_exists('css_url')){
     function css_url(){
-        $CI =& get_instance();
-    	$CI->load->helper('url');
-	    return base_url().'css/';
+		$CI =& get_instance();
+		return $CI->config->item('base_url').'css/';
     }
 }
 
 /**
+ * Get JavaScript Files Directory:$config['base_url']/images/
  * @access  public
  * @return  string
  */
 if(! function_exists('image_url')){
     function image_url(){
-        $CI =& get_instance();
-    	$CI->load->helper('url');
-    	return base_url().'image/';
+		$CI =& get_instance();
+    	return $CI->config->item('base_url').'images/';
     }
 }
 
