@@ -11,7 +11,7 @@
  */
 
 
-/**
+/*
  * Get JavaScript Files Directory:$config['base_url']/js
  *
  * @access  public
@@ -19,8 +19,8 @@
  */
 if(! function_exists('js_url')){
     function js_url(){
-    	$CI =& get_instance();
-    	return $CI->config->item('base_url').'js/';
+		$CI =& get_instance();
+		return $CI->config->item('base_url').'js/';
     }
 }
 
@@ -37,7 +37,7 @@ if(! function_exists('css_url')){
     }
 }
 
-/**
+/*
  * Get JavaScript Files Directory:$config['base_url']/images/
  * @access  public
  * @return  string
@@ -45,7 +45,7 @@ if(! function_exists('css_url')){
 if(! function_exists('image_url')){
     function image_url(){
 		$CI =& get_instance();
-    	return $CI->config->item('base_url').'images/';
+		return $CI->config->item('base_url').'images/';
     }
 }
 
