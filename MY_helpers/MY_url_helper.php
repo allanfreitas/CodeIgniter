@@ -59,7 +59,7 @@ if(! function_exists('xml_ver')){
     $ua = $_SERVER['HTTP_USER_AGENT'];
         if (!preg_match("/MSIE 6/",$ua) || preg_match("/MSIE 7/",$ua)) 
         {
-            return "<?xml version='1.0' encoding=utf-8?>\n";
+            return "<?xml version='1.0' encoding='utf-8'?>\n";
         }
         else
         {
