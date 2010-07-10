@@ -49,5 +49,24 @@ if(! function_exists('image_url')){
     }
 }
 
+/*
+ * Echo XML !IE6 OR !IE7
+ * @access  public
+ * @return  string
+ */
+if(! function_exists('xml_ver')){
+    function xml_ver(){
+    $ua = $_SERVER['HTTP_USER_AGENT'];
+        if (!preg_match("/MSIE 6/",$ua) || preg_match("/MSIE 7/",$ua)) 
+        {
+            return "<?xml version='1.0' encoding=utf-8?>\n";
+        }
+        else
+        {
+            return "";
+        }
+    }
+}
+
 /* End of file MY_url_helper.php */
 /* Location: ./system/application/helpers/MY_url_helper.php */
