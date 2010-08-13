@@ -198,7 +198,35 @@ cache_delete_all()
 dbforge()
 create_database()
 drop_database()
-/////dbforgeまで/////
+type
+constraint
+unsigned
+auto_increment
+default
+add_field()
+add_key()
+create_table()
+drop_table()
+rename_table()
+add_column()
+drop_column()
+modify_column()
+dbutil()
+list_database()
+database_exists()
+optimize_table()
+repair_table()
+optimize_database()
+csv_from_result()
+xml_from_result()
+backup()
+tables
+ignore
+format
+filename
+add_drop
+add_insert
+newline
 
 
 :::::Reserved Names:::::
