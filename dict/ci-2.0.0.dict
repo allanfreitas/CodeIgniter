@@ -536,6 +536,20 @@ total_segments
 total_rsegments()
 segment_array()
 rsegment_array()
+:::::User Agent Class:::::
+user_agent
+agent
+is_browser()
+is_mobile()
+is_robot()
+is_referral()
+browser()
+mobile()
+robot()
+referrer()
+agent_string()
+accept_lang()
+accept_charset()
 
 
 :::::Reserved Names:::::
