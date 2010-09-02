@@ -581,6 +581,183 @@ read_dir()
 archive()
 get_zip()
 clear_data()
+:::::Array Helper:::::
+element()
+random_element()
+:::::Compatibility Helper:::::
+compatibility
+PHP_EOL
+:::::Cookie Helper:::::
+cookie
+delete_cookie()
+:::::Date Helper:::::
+date
+now()
+mdate()
+standard_date()
+DATE_ATOM
+DATE_COOKIE
+DATE_ISO8601
+DATE_RFC822
+DATE_RFC850
+DATE_RFC1036
+DATE_RFC1123
+DATE_RFC2822
+DATE_RSS
+DATE_W3C
+local_to_gmt()
+gmt_to_local()
+mysql_to_unix()
+unix_to_human()
+human_to_unix()
+timespan()
+days_in_month()
+timezones()
+timezone_menu()
+UM12
+UM11
+UM10
+UM9
+UM8
+UM7
+UM6
+UM5
+UM4
+UM25
+UM3
+UM2
+UM1
+UTC
+UP1
+UP2
+UP3
+UP25
+UP4
+UP35
+UP5
+UP45
+UP6
+UP7
+UP8
+UP9
+UP85
+UP10
+UP11
+UP12
+:::::Directory Helper:::::
+directory_map()
+:::::Download Helper:::::
+force_download()
+:::::Email Helper:::::
+send_email()
+:::::File Helper:::::
+write_file()
+get_filenames()
+get_dir_file_info()
+get_file_info()
+get_mime_by_extension()
+symbolic_permissions()
+octal_permissions()
+:::::Form Helper:::::
+form
+form_open()
+form_open_multipart()
+form_hidden()
+form_input()
+form_password()
+form_upload()
+form_textarea()
+form_dropdown()
+form_multiselect()
+form_fieldset()
+form_fieldset_close()
+form_checkbox()
+form_radio()
+form_submit()
+form_label()
+form_reset()
+form_button()
+form_close()
+form_prep()
+:::::HTML Helper:::::
+html
+br()
+heading()
+img()
+link_tag()
+nbs()
+ol()
+ul()
+meta()
+doctype()
+xhtml11
+xhtml1-strict
+xhtml1-trans
+xhtml1-frame
+html5
+html4-strict
+html4-trans
+html4-frame
+:::::Inflector Helper:::::
+inflector
+singular()
+plural()
+camelize()
+underscore()
+humanize()
+:::::Language Helper:::::
+lang()
+:::::Number Helper:::::
+number
+byte_format()
+:::::Path Helper:::::
+set_realpath()
+:::::Security Helper:::::
+do_hash()
+:::::Smiley Helper:::::
+smiley
+get_clickable_smileys()
+smiley_js()
+parse_smileys()
+:::::String Helper:::::
+random_string()
+alnum
+nozero
+unique
+alternator()
+repeater()
+reduce_double_slashes()
+trim_slashes()
+reduce_multiples()
+quotes_to_entities()
+strip_quotes()
+:::::Text Helper:::::
+text
+word_limiter()
+character_limiter()
+ascii_to_entities()
+entities_to_ascii()
+convert_accented_characters()
+word_censor()
+highlight_code()
+highlight_phrase()
+word_wrap()
+:::::Typography Helper:::::
+typography
+auto_typography()
+nl2br_except_pre()
+:::::URL Helper:::::
+site_url()
+index_page()
+anchor()
+anchor_popup()
+mailto()
+safe_mailto()
+auto_link()
+url_title()
+redirect()
+:::::XML Helper:::::
+xml_convert()
 
 
 
