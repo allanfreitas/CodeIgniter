@@ -521,7 +521,21 @@ notes
 {/rows}
 {item}
 {result}
-
+:::::URI Class:::::
+uri
+segment()
+resegment()
+slash_segment()
+slash_resegment()
+uri_to_assoc()
+ruri_to_assoc()
+assoc_to_uri()
+uri_string()
+ruri_string()
+total_segments
+total_rsegments()
+segment_array()
+rsegment_array()
 
 
 :::::Reserved Names:::::
