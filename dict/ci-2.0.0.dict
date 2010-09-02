@@ -426,6 +426,33 @@ cache()
 {elapsed_time}
 {memory_usage}
 parse_exec_vars
+:::::Pagenation Class:::::
+pagenation
+base_url
+total_rows
+per_page
+uri_segment
+num_links
+page_query_string
+full_tag_open
+full_tag_close
+first_link
+first_tag_open
+first_tag_close
+last_link
+last_tag_open
+last_tag_close
+next_link
+next_tag_open
+next_tag_close
+prev_link
+prev_tag_open
+prev_tag_close
+cur_tag_open
+cur_tag_close
+num_tag_open
+num_tag_close
+
 
 
 :::::Reserved Names:::::
