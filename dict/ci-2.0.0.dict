@@ -353,7 +353,40 @@ make_columns()
 set_template()
 set_empty()
 function 
-
+:::::Image Manipulation Class:::::
+image_lib
+image_library
+library_path
+source_image
+dynamic_output
+quality
+new_image
+create_thumb
+thumb_marker
+maintain_ratio
+master_dim
+rotation_angle
+x_axis
+y_axis
+resize()
+crop()
+rotate()
+wm_type
+padding
+wm_vrt_alignment
+wm_hor_alignment
+wm_hor_offset
+wm_vrt_offset
+wm_text
+wm_font_path
+wm_font_size
+wm_font_color
+wm_shadow_color
+wm_shadow_distance
+wm_overlay_path
+wm_opacity
+wm_x_transp
+wm_y_transp
 
 
 
