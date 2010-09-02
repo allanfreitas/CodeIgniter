@@ -485,6 +485,10 @@ tb_date
 send_error()
 receive()
 send_success()
+:::::Templata Parser Class:::::
+parser
+parse()
+parse_string()
 
 
 
