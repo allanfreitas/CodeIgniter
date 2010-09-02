@@ -248,7 +248,7 @@ filename
 add_drop
 add_insert 
 newline
-"emal class 
+"email class 
 from('@email_address','name')
 reply_to('@email_address','name')
 to()
@@ -295,7 +295,7 @@ file_name
 overwrite
 max_size
 max_width
-max_heigh
+max_height
 max_filename
 encrypt_name
 remove_spaces
@@ -310,7 +310,7 @@ file_ext
 file_size
 is_image
 image_width
-image_heigth
+image_height
 image_type
 image_size_str
 "Form_validation
@@ -405,7 +405,7 @@ quality
 padding
 wm_vrt_alignment
 wm_hor_alignment
-wm_hor_offse
+wm_hor_offset
 wm_vrt_offset
 wm_text
 wm_font_path
@@ -569,7 +569,7 @@ method()
 request()
 send_request()
 set_debug(TRUE)
-display_error()
+display_errors()
 display_response()
 send_error_message()
 send_response()
@@ -616,7 +616,7 @@ human_to_unix()
 timespan()
 days_in_month()
 timezones()
-timezones_menu()
+timezone_menu()
 "Timezon  Ref
 UM12
 UM11
@@ -724,7 +724,7 @@ dohash()
 strip_image_tags()
 encode_php_tags()
 smiley
-get_clickble_smileys()
+get_clickable_smileys()
 smiley_js()
 parse_smileys()
 string
@@ -739,7 +739,7 @@ repeater()
 reduce_double_slashes()
 trim_slashes()
 reduce_multiples()
-quote_to_entities()
+quotes_to_entities()
 strip_quotes()
 text
 word_limiter()
