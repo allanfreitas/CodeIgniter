@@ -473,6 +473,18 @@ sess_table_name
 sess_time_to_update
 sess_match_ip
 sess_match_useragent
+:::::Trackback Class:::::
+trackback
+ping_url
+title
+excerpt
+blog_name
+tb_id
+entry_id
+tb_date
+send_error()
+receive()
+send_success()
 
 
 
