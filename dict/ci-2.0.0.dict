@@ -387,6 +387,22 @@ wm_overlay_path
 wm_opacity
 wm_x_transp
 wm_y_transp
+:::::Input Class:::::
+global_xss_filtering
+post()
+get()
+get_post()
+cookie()
+server()
+set_cookie()
+get_cookie()
+ip_address()
+user_agent()
+value
+expire
+domain
+path
+prefix
 
 
 
