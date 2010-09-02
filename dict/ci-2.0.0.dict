@@ -567,10 +567,20 @@ send_response()
 int
 i4
 boolean
+string
 double
 dateTime.iso8601
 struct
 array
+:::::Zip Encoding Class:::::
+zip
+add_data()
+add_dir()
+read_file()
+read_dir()
+archive()
+get_zip()
+clear_data()
 
 
 
