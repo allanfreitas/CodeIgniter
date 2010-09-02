@@ -268,7 +268,65 @@ decode()
 set_cipher()
 set_mode()
 sha1()
-
+:::::File Uploading Class:::::
+upload
+upload_path
+allowed_types
+file_name
+overwrite
+max_size
+max_width
+max_height
+max_filename
+encrypt_name
+remove_spaces
+xss_clean
+do_upload()
+display_errors()
+data()
+file_type
+file_path
+full_path
+raw_name
+orig_name
+file_ext
+file_size
+is_image
+image_width
+image_height
+image_type
+image_size_str
+:::::Form Validation:::::
+form_validation
+set_rules()
+run()
+set_message()
+form_error()
+validation_errors()
+set_value()
+set_select()
+set_checkbox()
+set_radio()
+required
+matches
+min_length
+max_length
+exact_length
+alpha
+alpha_numeric
+alpha_dash
+numeric
+integer
+is_natural
+is_natural_no_zero
+valid_email
+valid_emails
+valid_ip
+valid_base64
+prep_for_form
+prep_url
+strip_image_tags
+encode_php_tags
 
 
 
