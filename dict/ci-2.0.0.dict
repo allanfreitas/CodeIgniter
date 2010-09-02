@@ -327,6 +327,22 @@ prep_for_form
 prep_url
 strip_image_tags
 encode_php_tags
+:::::FTP Class:::::
+ftp
+hostname
+debug
+passive
+upload()
+download()
+rename()
+move()
+delete_file()
+delete_dir()
+list_files()
+mirror()
+mkdir()
+chmod()
+close()
 
 
 
