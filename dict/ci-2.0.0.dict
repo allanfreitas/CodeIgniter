@@ -485,10 +485,16 @@ tb_date
 send_error()
 receive()
 send_success()
-:::::Templata Parser Class:::::
+:::::Template Parser Class:::::
 parser
 parse()
 parse_string()
+:::::Typography Class:::::
+typography
+auto_typography()
+format_characters()
+nl2br_except_pre()
+protected_braced_quotes
 
 
 
