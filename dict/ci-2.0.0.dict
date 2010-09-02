@@ -403,6 +403,13 @@ expire
 domain
 path
 prefix
+:::::Loader Class:::::
+model()
+database()
+helper()
+add_package_path()
+remove_package_path()
+
 
 
 
