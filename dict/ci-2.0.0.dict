@@ -413,7 +413,19 @@ remove_package_path()
 language_key
 load()
 line()
-
+:::::Output Class:::::
+output
+set_output()
+get_output()
+append_output()
+set_header()
+set_status_header()
+enable_profiler()
+set_profiler_sections()
+cache()
+{elapsed_time}
+{memory_usage}
+parse_exec_vars
 
 
 :::::Reserved Names:::::
