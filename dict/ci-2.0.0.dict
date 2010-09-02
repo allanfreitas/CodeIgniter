@@ -550,6 +550,29 @@ referrer()
 agent_string()
 accept_lang()
 accept_charset()
+:::::XML-RPC and XML-RPC Server Classes:::::
+xmlrpc
+xmlrpcs
+initialize()
+server()
+timeout()
+method()
+request()
+send_request()
+set_debug()
+display_error()
+display_response()
+send_error_message()
+send_response()
+int
+i4
+boolean
+double
+dateTime.iso8601
+struct
+array
+
+
 
 
 :::::Reserved Names:::::
