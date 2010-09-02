@@ -1,4 +1,16 @@
-"CodeIgniter(2.0.0) Dictionary For Vim/GVim
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::CodeIgniter 2.0.0 Dictionary For Vim/GVim :::::
+:::::created by Yuya Terajima(e2esound.com)    :::::
+:::::web    :http://www.e2esound.com/          :::::
+:::::blog   :http://www.e2esound.com/wp/       :::::
+:::::Email  :yterajima@e2esound,com            :::::
+:::::Twitter:http://twitter,com/terakuma       :::::
+:::::[Notice]                                  :::::
+:::::This dict is made from CodeIgniter 2.0.0's::::: 
+:::::documents files.Sometimes This has typo.  :::::
+:::::If you noticed this,Please teach me or    :::::
+:::::fork and correct in github or others.     :::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Controller
 Controller()
@@ -805,4 +817,3 @@ FOPEN_WRITE_CREATE
 FOPEN_READ_WRITE_CREATE
 FOPEN_WRITE_CREATE_STRICT
 FOPEN_READ_WRITE_CREATE_STRICT
-
