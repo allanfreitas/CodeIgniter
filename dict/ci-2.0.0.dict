@@ -495,6 +495,32 @@ auto_typography()
 format_characters()
 nl2br_except_pre()
 protected_braced_quotes
+:::::Unit Testing Class:::::
+unit_test
+unit
+is_object
+is_string
+is_true
+is_false
+is_int
+is_numeric
+is_float
+is_double
+is_array
+is_null
+report()
+use_strict()
+active()
+set_test_items()
+test_name
+test_datatype
+res_datatype
+result
+notes
+{rows}
+{/rows}
+{item}
+{result}
 
 
 
