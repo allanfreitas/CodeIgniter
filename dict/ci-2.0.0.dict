@@ -227,6 +227,49 @@ filename
 add_drop
 add_insert
 newline
+:::::Email Class:::::
+email 
+useragent
+protocol
+mailpath
+smtp_host
+smtp_user
+smtp_pass
+smtp_port
+smtp_timeout
+wordwrap
+wrapchars
+mailtype
+charset
+validate
+priority
+crlf
+bcc_batch_mode
+bcc_batch_size
+from()
+reply_to()
+to()
+cc()
+bcc()
+subject()
+message()
+set_alt_message()
+clear()
+send()
+attach()
+print_debugger()
+{unwrap}
+{/unwrap}
+:::::Encryption Class:::::
+encrypt_key
+encrypt
+encode()
+decode()
+set_cipher()
+set_mode()
+sha1()
+
+
 
 
 :::::Reserved Names:::::

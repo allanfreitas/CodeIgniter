@@ -265,7 +265,7 @@ print_debugger()
 useragent
 protocol
 mailpath
-smtp_hos
+smtp_host
 smtp_user
 smtp_pass
 smtp_port
