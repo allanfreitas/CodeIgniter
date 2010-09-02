@@ -343,6 +343,17 @@ mirror()
 mkdir()
 chmod()
 close()
+:::::HTML Table Class:::::
+table 
+generate()
+set_caption()
+set_heading()
+add_row()
+make_columns()
+set_template()
+set_empty()
+function 
+
 
 
 
